@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <paginate v-if="ads.length > 5"
+        <paginate v-if="ads.length > this.pageSize"
                 :page-count="pageCount"
                 :click-handler="onPaginate"
                 :prev-text="'Prev'"
