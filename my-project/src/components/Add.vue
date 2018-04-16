@@ -55,7 +55,7 @@
                     n++;
                     localStorage.setItem("last ad", n);
 
-                    ads.push({id: n, title: this.title, description: this.description, user: user, date: date});
+                    ads.unshift({id: n, title: this.title, description: this.description, user: user, date: date});
                     localStorage.setItem('ads',JSON.stringify(ads));
 
                     this.$router.push('/'+n)

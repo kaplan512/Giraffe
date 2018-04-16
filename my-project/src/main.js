@@ -22,6 +22,7 @@ const routes = [
     {path: '/logout', component: Logout},
     {path: '/:id', component: Check},
     {path: '/delete/:id', component: Delete}
+
 ];
 
 const router = new VueRouter({

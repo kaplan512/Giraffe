@@ -14,5 +14,7 @@
 </script>
 
 <style scoped>
-
+.link {
+    margin: 15px auto;
+}
 </style>
